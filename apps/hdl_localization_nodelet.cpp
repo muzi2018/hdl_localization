@@ -53,6 +53,9 @@ public:
     robot_odom_frame_id = private_nh.param<std::string>("robot_odom_frame_id", "robot_odom");
     odom_child_frame_id = private_nh.param<std::string>("odom_child_frame_id", "base_link");
 
+    std::cout << "robot_odom_frame_id = " << robot_odom_frame_id << std::endl;
+    std::cout << "odom_child_frame_id = " << odom_child_frame_id << std::endl;
+
     use_imu = private_nh.param<bool>("use_imu", true);
     invert_acc = private_nh.param<bool>("invert_acc", false);
     invert_gyro = private_nh.param<bool>("invert_gyro", false);

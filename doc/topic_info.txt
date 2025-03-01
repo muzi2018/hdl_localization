@@ -1,0 +1,33 @@
+﻿header: 
+  seq: 0
+  stamp: 
+    secs: 0
+    nsecs:         0
+  frame_id: "map"
+height: 1
+width: 1436367
+fields: 
+  - 
+    name: "x"
+    offset: 0
+    datatype: 7
+    count: 1
+  - 
+    name: "y"
+    offset: 4
+    datatype: 7
+    count: 1
+  - 
+    name: "z"
+    offset: 8
+    datatype: 7
+    count: 1
+  - 
+    name: "intensity"
+    offset: 16
+    datatype: 7
+    count: 1
+is_bigendian: False
+point_step: 32
+row_step: 45963744
+data:[]
