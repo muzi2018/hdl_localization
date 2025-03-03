@@ -184,6 +184,7 @@ private:
    * @param points_msg
    */
   void points_callback(const sensor_msgs::PointCloud2ConstPtr& points_msg) {
+    // std::cout << "points_callback ..." << std::endl;
     if(!globalmap) {
       NODELET_ERROR("globalmap has not been received!!");
       return;
