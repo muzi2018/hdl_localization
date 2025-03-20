@@ -8,6 +8,7 @@ Panels:
         - /Status1
         - /PointCloud23
         - /MarkerArray1/Namespaces1
+        - /Map1
         - /Path1
       Splitter Ratio: 0.5
     Tree Height: 1158
@@ -587,7 +588,7 @@ Visualization Manager:
       Draw Behind: false
       Enabled: true
       Name: Map
-      Topic: /hdl_global_localization/bbs/gridmap
+      Topic: /projected_map
       Unreliable: false
       Use Timestamp: false
       Value: true
@@ -1130,9 +1131,9 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 1.0997965335845947
+      Pitch: 1.139796495437622
       Target Frame: <Fixed Frame>
-      Yaw: 0.07165373116731644
+      Yaw: 6.159841537475586
     Saved: ~
 Window Geometry:
   Displays:
