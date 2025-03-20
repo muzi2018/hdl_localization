@@ -1,0 +1,4 @@
+﻿1. rosbag record /velodyne_points
+2. python /home/wang/forest_ws/src/centauro_horizon/python/bag_to_pcd.py
+3. pcl_passthrough_filter output_lidar.pcd filter_lidar.pcd -field z -min -1.2 -max 2 # filter_ground
+
